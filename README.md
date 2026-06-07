@@ -32,9 +32,9 @@ The repository is structured into modular components:
 │   
 │   
 │
-├── mimii_gen/                   # Generative model implementation
-│   ├── unet.py                  # Wide-UNet architecture
-│   └── inference.py             # Sampling & post-processing logic
+├── mimii_gen/                   # Generative model 
+│   
+│   
 │
 └── README.md                    # Project documentation
 
