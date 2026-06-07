@@ -21,4 +21,17 @@ The repository is structured into modular components:
 │   ├── 20_eval_gen.ipynb         # Audio quality evaluation (FAD, CLAP)
 │   ├── 21_eval_asd_s1.ipynb      # Baseline evaluation (Autoencoder)
 │   └── 22_eval_asd_s2.ipynb      # Evaluation of proposed OEC System
-└── README.md
+├── system_1_ae/                 # ASD System 1: Autoencoder (Baseline)
+│  
+│  
+│
+├── system_2_mobilenet/          # ASD System 2: MobileNetV2 (Proposed)
+│   
+│   
+│
+├── mimii_gen/                   # Generative model implementation
+│   ├── unet.py                  # Wide-UNet architecture
+│   └── inference.py             # Sampling & post-processing logic
+│
+└── README.md                    # Project documentation
+
