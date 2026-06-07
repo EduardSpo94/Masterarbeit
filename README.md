@@ -21,6 +21,9 @@ The repository is structured into modular components:
 │   ├── 20_eval_gen.ipynb         # Audio quality evaluation (FAD, CLAP)
 │   ├── 21_eval_asd_s1.ipynb      # Baseline evaluation (Autoencoder)
 │   └── 22_eval_asd_s2.ipynb      # Evaluation of proposed OEC System
+│ 
+│ 
+│ 
 ├── system_1_ae/                 # ASD System 1: Autoencoder (Baseline)
 │  
 │  
